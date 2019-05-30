@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.f3334251.ttf"
   },
   {
+    "revision": "9f4ce3dc689981a1b87faab0f5484f9e",
+    "url": "/static/media/fa-brands-400.9f4ce3dc.woff2"
+  },
+  {
     "revision": "64b3e814a66c2719b15abf8f7998bd73",
     "url": "/static/media/fa-solid-900.64b3e814.woff2"
   },
   {
     "revision": "9f018d1025561e96439f7c0e9026301a",
     "url": "/static/media/fa-brands-400.9f018d10.woff"
-  },
-  {
-    "revision": "9f4ce3dc689981a1b87faab0f5484f9e",
-    "url": "/static/media/fa-brands-400.9f4ce3dc.woff2"
   },
   {
     "revision": "0be94a07755ba9b88f2ebcac0f23a3da",
@@ -104,12 +104,12 @@ self.__precacheManifest = [
     "url": "/static/media/arrow_right.8ef6a08c.svg"
   },
   {
-    "revision": "a990f611f2305dc12965f186c2ef2690",
-    "url": "/static/media/Roboto-Light.a990f611.eot"
-  },
-  {
     "revision": "dfe56a876d0282555d1e2458e278060f",
     "url": "/static/media/Roboto-Thin.dfe56a87.eot"
+  },
+  {
+    "revision": "a990f611f2305dc12965f186c2ef2690",
+    "url": "/static/media/Roboto-Light.a990f611.eot"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -122,6 +122,10 @@ self.__precacheManifest = [
   {
     "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
     "url": "/static/media/Roboto-Bold.ecdd509c.eot"
+  },
+  {
+    "revision": "954bbdeb86483e4ffea00c4591530ece",
+    "url": "/static/media/Roboto-Thin.954bbdeb.woff2"
   },
   {
     "revision": "69f8a0617ac472f78e45841323a3df9e",
@@ -138,10 +142,6 @@ self.__precacheManifest = [
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
     "url": "/static/media/Roboto-Bold.39b2c303.woff2"
-  },
-  {
-    "revision": "954bbdeb86483e4ffea00c4591530ece",
-    "url": "/static/media/Roboto-Thin.954bbdeb.woff2"
   },
   {
     "revision": "7500519de3d82e33d1587f8042e2afcb",
@@ -168,16 +168,16 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Thin.94998475.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/static/media/Roboto-Medium.894a2ede.ttf"
-  },
-  {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
     "url": "/static/media/Roboto-Regular.df7b648c.ttf"
+  },
+  {
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "c40729798edf4579a22f",
