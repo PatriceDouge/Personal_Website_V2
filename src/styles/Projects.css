@@ -1,0 +1,67 @@
+.projects {
+  width: 85%;
+  padding-top: 50px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container h1 { 
+  padding: 50px 0 25px 0; 
+  font-weight: bolder;
+}
+
+.container h1, h2 { text-align: center }
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.projects p { font-size: 14px; }
+.projects-2 p { font-size: 14px; }
+
+.project-box {
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+  padding: 18px;
+}
+
+.padding {
+  margin: 0 20px 0 20px;
+}
+
+.dot-yellow {
+  height: 15px;
+  width: 15px;
+  background-color: #F1E05A;
+  border-radius: 50%;
+  float: left;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.dot-orange {
+  height: 15px;
+  width: 15px;
+  background-color: #FFAB44;
+  border-radius: 50%;
+  float: left;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.dot-brown {
+  height: 15px;
+  width: 15px;
+  background-color: #B07218;
+  border-radius: 50%;
+  float: left;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.language {
+  padding-left: 10px;
+  margin-top: 0px;
+}
