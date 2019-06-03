@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
+import '../styles/App.css';
 
 // import scrollToComponent from 'react-scroll-to-component';
 
@@ -26,9 +27,9 @@ class Home extends Component {
           in my senior year of college at the Univeristy of Rochester.
           </p>
 
-          {/* <a><Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >Test 1</Link></a> */}
-
           </div>
+
+          <div className="chevron"></div>
       </div>
       
     );

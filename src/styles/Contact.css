@@ -1,6 +1,5 @@
-.form {
-  width: 135%;
-}
+.form { width: 135%; }
+@media all and (max-width: 767px) { .form { width: 100% } }
 
 .form .contact-btn {
   text-align: center;

@@ -27,9 +27,8 @@ img {
   padding: 18px;
 }
 
-.padding {
-  margin: 0 20px 0 20px;
-}
+.padding { margin: 0 20px 0 20px;} 
+@media all and (max-width: 575px) { .padding { margin: 20px 0 20px 0; }}
 
 .dot-yellow {
   height: 15px;

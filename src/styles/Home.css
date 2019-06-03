@@ -31,3 +31,16 @@
   font-size: 1.5em;
   font-style: italic;
 }
+
+.chevron {
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  will-change: transform;
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+  left: 50%;
+}
