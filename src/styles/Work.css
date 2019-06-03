@@ -15,7 +15,7 @@
   width: 420px; 
   display: block;
 }
-@media all and (max-width: 479px) { .work p { width:  } }
+@media all and (max-width: 479px) { .work p { width: 350px;} }
 
 .work img {
   width: 470px;
