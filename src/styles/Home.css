@@ -1,7 +1,5 @@
 .home {
-  height: 100%;
   min-height: 100vh;
-  min-width: 380px;
   position: relative;
 }
 
@@ -13,25 +11,30 @@
   position: absolute;
   margin: 0;
 }
+@media all and (max-width: 479px) { .home-text { padding-left: 10px; } }
 
 .first {
   font-size: 5em;
   font-weight: 600;
 }
+@media all and (max-width: 479px) { .first { font-size: 4em; } }
 
 .second {
   font-size: 3em;
 }
+@media all and (max-width: 479px) { .second { font-size: 2em; } }
 
 .name {
   font-size: 5em;
   font-weight: 600;
 }
+@media all and (max-width: 479px) { .name { font-size: 4em; } }
 
 .about {
   font-size: 1.5em;
   font-style: italic;
 }
+@media all and (max-width: 479px) { .about { font-size: 1em; } }
 
 .chevron {
   width: 20px;

@@ -22,9 +22,9 @@ class Home extends Component {
           <p className="about">
           I design and develop beautiful, responsive websites.
             <br />
-          Currently I am a Web Developer Intern at Rochester Regional Health,
+          Currently I am a Web Developer at Rochester Regional Health,
             <br />
-          in my senior year of college at the Univeristy of Rochester.
+          and a recent graduate from the Univeristy of Rochester.
           </p>
 
           </div>

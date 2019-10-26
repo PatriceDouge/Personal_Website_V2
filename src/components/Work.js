@@ -12,7 +12,7 @@ class Work extends Component {
           <div className="row gutter">
             <div className="col text">
               <h3>Personal Website V1</h3>
-              <p>This was the first iteraction of my personal site. To build it, I used HTML, JS, JavaScript and jQuery. </p>
+              <p>This was the first iteration of my personal site. To build it, I used HTML, JS, JavaScript and jQuery. </p>
               <div className="work-btn">
                 <a href="https://patricedouge.github.io/">
                   <button type="button">View Website</button>
@@ -46,7 +46,7 @@ class Work extends Component {
           <div className="row gutter">
             <div className="col text">
               <h3>Amexsa Corp</h3>
-              <p>Amexsa is an international trading company which specializes in the marketing and distribution of food and beverages worldwide. I helped with the design and development of their website. I used HTML, CSS and JavaScript</p>
+              <p>Amexsa is an international trading company which specializes in the marketing and distribution of food and beverages worldwide. I helped with the design and development of their website, using HTML, CSS and JavaScript</p>
             </div>
             <div className="col img">
               <img src={require('../assets/images/amexsa.jpg')} alt="amexsa img"/>
