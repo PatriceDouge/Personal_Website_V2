@@ -20,7 +20,8 @@ class Work extends Component {
               </div>
             </div>
             <div className="col img">
-              <img src={require('../assets/images/personal_site_v1.jpg')} alt="personal site v1 img"/>
+              <img src={require('http://s3.amazonaws.com/patrice-douge-assets/images/personal_site_v1.jpg')} alt="personal site v1 img"/>
+              {/*<img src={require('../assets/images/personal_site_v1.jpg')} alt="personal site v1 img"/>*/}
             </div>
           </div>
 
@@ -28,7 +29,7 @@ class Work extends Component {
 
           <div className="row gutter">
           <div className="col img">
-              <img src={require('../assets/images/igh-site.jpg')} alt="igh img"/>
+              <img src={require('http://s3.amazonaws.com/patrice-douge-assets/images/igh-site.jpg')} alt="igh img"/>
             </div>
             <div className="col text">
               <h3>Rochester Regional Health</h3>
@@ -49,7 +50,7 @@ class Work extends Component {
               <p>Amexsa is an international trading company which specializes in the marketing and distribution of food and beverages worldwide. I helped with the design and development of their website, using HTML, CSS and JavaScript</p>
             </div>
             <div className="col img">
-              <img src={require('../assets/images/amexsa.jpg')} alt="amexsa img"/>
+              <img src={require('http://s3.amazonaws.com/patrice-douge-assets/images/amexsa.jpg')} alt="amexsa img"/>
             </div>
           </div>
         </div>
