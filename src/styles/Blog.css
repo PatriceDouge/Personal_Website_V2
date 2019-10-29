@@ -1,0 +1,58 @@
+.title {
+  max-width: 60%;
+  margin: 40px auto;
+}
+
+.content {
+  max-width: 50%;
+  margin: 40px auto;
+}
+
+.content h4 {
+  font-size: 15px;
+}
+
+.content .blog1 {
+  opacity: .7;
+}
+
+.content .blog1:hover {
+  opacity: 1;
+}
+
+.hr-text {
+  font-size: 70px;
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: #000000;
+  text-align: center;
+  height: 1.5em;
+  opacity: .7;
+  font-family: Great Vibes;
+}
+
+.hr-text:before {
+  content: '';
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: #000000;
+
+  padding: 0 .5em;
+  line-height: 1.5em;
+  background-color: #fcfcfa;
+}
+
+.hr-text:hover {
+  opacity: 1;
+}

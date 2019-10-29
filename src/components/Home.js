@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
 import '../styles/App.css';
+import { Router, Link } from "@reach/router";
 
 // import scrollToComponent from 'react-scroll-to-component';
 
@@ -20,11 +21,11 @@ class Home extends Component {
           <h1 className="name">PATRICE DOUGÉ</h1>
 
           <p className="about">
-          I design and develop beautiful, responsive websites.
+          I build <a href="">stuff</a> for the web, love taking <a href="">pictures</a>,
             <br />
-          Currently I am a Web Developer at Rochester Regional Health,
+          and enjoy <a href="">writting</a> about a variety of subjects.
             <br />
-          and a recent graduate from the Univeristy of Rochester.
+          Scroll down to learn more about what I do.
           </p>
 
         </div>

@@ -30,7 +30,7 @@ class Work extends Component {
           <div className="row gutter">
           <div className="col img">
               {/* <img src="http://s3.amazonaws.com/patrice-douge-assets/images/igh-site.jpg" alt="igh img"/> */}
-              <img src={require('../assets/images/personal_site_v1.jpg')} alt="personal site v1 img"/>
+              <img src={require('../assets/images/igh-site.jpg')} alt="personal site v1 img"/>
             </div>
             <div className="col text">
               <h3>Rochester Regional Health</h3>
@@ -52,7 +52,7 @@ class Work extends Component {
             </div>
             <div className="col img">
               {/* <img src="http://s3.amazonaws.com/patrice-douge-assets/images/amexsa.jpg" alt="amexsa img"/> */}
-              <img src={require('../assets/images/personal_site_v1.jpg')} alt="personal site v1 img"/>
+              <img src={require('../assets/images/amexsa.jpg')} alt="personal site v1 img"/>
             </div>
           </div>
         </div>
