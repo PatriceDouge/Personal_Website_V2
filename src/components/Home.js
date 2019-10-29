@@ -21,7 +21,7 @@ class Home extends Component {
           <h1 className="name">PATRICE DOUGÉ</h1>
 
           <p className="about">
-          I build <a href="">stuff</a> for the web, love taking <a href="">pictures</a>,
+          I design and develop <a href="">websites</a>, love taking <a href="">pictures</a>,
             <br />
           and enjoy <a href="">writting</a> about a variety of subjects.
             <br />
