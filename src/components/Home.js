@@ -9,9 +9,6 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="home-text">
-          <div className="logo">
-          <img src={require('../assets/images/logo.jpg')} alt="logo"/>
-          </div>
           <h1 className="first">
             HELLO!
           </h1>
@@ -30,7 +27,7 @@ class Home extends Component {
           and a recent graduate from the Univeristy of Rochester.
           </p>
 
-          </div>
+        </div>
 
           <div className="chevron"></div>
       </div>
