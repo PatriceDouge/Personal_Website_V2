@@ -48,3 +48,10 @@
   margin-bottom: 15px;
   left: 50%;
 }
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  left: 0;
+  top: 0;
+}
