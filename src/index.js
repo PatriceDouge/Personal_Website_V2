@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Work from './components/Work';
+import Photography from './components/Photography';
 
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -27,6 +28,7 @@ const routing = (
       <Route path="/home" component={Home} />
       <Route path="/projects" component={Projects} />
       <Route path="/work" component={Work} />
+      <Route path="/photography" component={Photography} />
     </div>
   </Router>
 )

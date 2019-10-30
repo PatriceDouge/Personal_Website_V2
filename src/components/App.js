@@ -4,7 +4,6 @@ import '../styles/App.css';
 import Home from "./Home"
 import Work from "./Work"
 import Projects from "./Projects"
-// import About from "./About"
 import Contact from "./Contact"
 import Footer from "./Footer"
 
