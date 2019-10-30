@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
 import '../styles/App.css';
-import { Router, Link } from "@reach/router";
-
-// import scrollToComponent from 'react-scroll-to-component';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
   render() {
