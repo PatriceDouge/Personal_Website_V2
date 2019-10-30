@@ -11,7 +11,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Work from './components/Work';
 import Photography from './components/Photography';
-
+import Blog1 from './components/Blog1';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -29,6 +29,7 @@ const routing = (
       <Route path="/projects" component={Projects} />
       <Route path="/work" component={Work} />
       <Route path="/photography" component={Photography} />
+      <Route path="/blog1" component={Blog1} />
     </div>
   </Router>
 )

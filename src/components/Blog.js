@@ -14,12 +14,12 @@ class Blog extends Component {
         </div>
 
         <div className="content">
-
-          <div className="blogs">
-            <p className="date">21 June 2018</p>
-            <p className="blog-title">How to deploy a React Application to Production using Heroku</p>
-          </div>
-
+          <Link className="blog-link" to="/blog1">
+            <div className="blogs">
+              <p className="date">30 October 2019</p>
+              <p className="blog-title">How to deploy a React Application to Production using Heroku</p>
+            </div>
+          </Link>
         </div>
 
       </div>

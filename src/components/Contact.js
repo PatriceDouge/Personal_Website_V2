@@ -70,7 +70,7 @@ class Contact extends Component {
               </div>
               <div className="contact-btn">
                 <a href="">
-                  <button type="button">View Website</button>
+                  <button type="button">Contact Me</button>
                 </a>
               </div>
             </form>

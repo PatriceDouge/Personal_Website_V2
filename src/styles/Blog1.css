@@ -1,23 +1,21 @@
-.blog { text-align: left; }
-
-.content {
-  max-width: 50%;
+.blog1 {
+  max-width: 55%;
   margin: 40px auto;
-  text-align: left;
+}
+
+.blog1 h1 {
+  font-size: 25px;
 }
 
 .date { font-size: 15px; }
 
-.blog-title { font-size: 28px; }
-
-
-.blogs { opacity: .6; }
-
-.blogs:hover { opacity: 1; }
+.step {
+  font-weight: bold;
+}
 
 .logo {
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -50,12 +48,10 @@
   }
 }
 
-.blog-link { 
-  opacity: .6;
-  color: black; 
-}
-
-.blog-link:hover { 
-  opacity: 1;
-  color: black 
+.code-box {
+  background-color: #09192F;
+  color: #8792B0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
 }
