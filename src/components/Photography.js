@@ -5,7 +5,7 @@ import '../styles/Photography.css';
 class Photography extends Component {
   render() {
     return (
-      <div className="Photography">
+      <div className="container">
 
         <div className="row">
         
