@@ -25,7 +25,7 @@ class Blog1 extends Component {
 
         <p className="step">Step 1:</p>
 
-        <p>First create your React app using create-react-app if you haven't already done so:</p>
+        <p>First, create your React app if you haven't already done so:</p>
 
         <p className="code-box">$ create-react-app YourAppName</p>
 
