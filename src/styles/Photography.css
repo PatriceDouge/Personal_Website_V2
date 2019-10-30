@@ -40,3 +40,50 @@
     max-width: 100%;
   }
 }
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.logo img {
+  height: 60px;
+  width: 80px;
+}
+
+.quote {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .logo img {
+    height: 40px;
+    width: 60px;
+  }
+  .quote {
+    font-size: 20px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .logo img {
+    height: 35px;
+    width: 50px;
+  }
+  .quote {
+    font-size: 15px;
+  }
+}

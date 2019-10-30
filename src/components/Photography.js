@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+
 import '../styles/App.css';
 import '../styles/Photography.css';
 
@@ -6,6 +8,16 @@ class Photography extends Component {
   render() {
     return (
       <div className="container">
+
+        <div className="logo">
+          <Link to="/"><img src={require('../assets/images/logo.jpg')} alt="logo"/></Link>
+        </div>
+        
+        <p className="quote">
+        "What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce." 
+        <br />
+        -Karl Lagerfeld
+        </p>
 
         <div className="row">
         

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import {animateScroll as scroll } from "react-scroll";
+
 import '../styles/Home.css';
 import '../styles/App.css';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
   render() {
@@ -19,9 +21,9 @@ class Home extends Component {
           <h1 className="name">PATRICE DOUGÉ</h1>
 
           <p className="about">
-          I design and develop <a href="">websites</a>, love taking <a href="">pictures</a>,
+          I design and develop <a href="">websites</a>, love taking <Link to="/photography">pictures</Link><a href=""></a>,
             <br />
-          and enjoy <a href="">writting</a> about a variety of subjects.
+          and enjoy <Link to="/blog">writting</Link> about a variety of subjects.
             <br />
           Scroll down to learn more about what I do.
           </p>
