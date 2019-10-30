@@ -1,58 +1,51 @@
-.title {
-  max-width: 60%;
-  margin: 40px auto;
-}
+.blog { text-align: left; }
 
 .content {
   max-width: 50%;
   margin: 40px auto;
+  text-align: left;
 }
 
-.content h4 {
-  font-size: 15px;
-}
+.date { font-size: 15px; }
 
-.content .blog1 {
-  opacity: .7;
-}
+.blog-title { font-size: 28px; }
 
-.content .blog1:hover {
-  opacity: 1;
-}
 
-.hr-text {
-  font-size: 70px;
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: #000000;
+.blogs { opacity: .7; }
+
+.blogs:hover { opacity: 1; }
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 25px;
   text-align: center;
-  height: 1.5em;
-  opacity: .7;
-  font-family: Great Vibes;
 }
 
-.hr-text:before {
-  content: '';
-  background: linear-gradient(to right, transparent, #818078, transparent);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  height: 1px;
-}
-.hr-text:after {
-  content: attr(data-content);
-  position: relative;
-  display: inline-block;
-  color: #000000;
-
-  padding: 0 .5em;
-  line-height: 1.5em;
-  background-color: #fcfcfa;
+.logo img {
+  height: 60px;
+  width: 80px;
 }
 
-.hr-text:hover {
-  opacity: 1;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .logo img {
+    height: 40px;
+    width: 60px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .logo img {
+    height: 35px;
+    width: 50px;
+  }
 }
