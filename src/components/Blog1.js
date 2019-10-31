@@ -23,11 +23,74 @@ class Blog1 extends Component {
 
         <p>Let's now look at the process of correctly deploying your React app to heroku.</p>
 
-        <p className="step">Step 1:</p>
+        <p className="step">Step 1: Create your React project</p>
 
-        <p>First, create your React app if you haven't already done so:</p>
+        <p>Install create-react-app and create your app, then navigate into the project folder:</p>
 
-        <p className="code-box">$ create-react-app YourAppName</p>
+        <p className="code-box">
+          $ npm install -g create-react-app
+          <br/>
+          $ create-react-app YourAppName
+          <br/>
+          $ cd MyAwesomeApp
+        </p>
+
+        <p className="step">Step 2: static.json</p>
+
+        <p>Now, create a static.json file in the root of your project directory:</p>
+
+        <p className="code-box">$ touch static.json</p>
+
+        <p>Paste the following code into the file:</p>
+
+        <p className="code-box">
+          &#123;<br/>
+          &nbsp;"root": "build/",<br/>
+          &nbsp;"clean_urls": false,<br/>
+          &nbsp;"routes": &#123;<br/>
+          &nbsp;"/**": "index.html"<br/>
+          &nbsp; &#125;<br/>
+          &#125;
+        </p>
+        
+        <p className="step">Step 3: Git</p>
+
+        <p>Now, initialize a git repository in the folder:</p>
+
+        <p className="code-box">$ git init</p>
+
+        <p className="step">Step 4: Deploy to heroku</p>
+
+        <p>If you haven't already, sign up on <a href="https://signup.heroku.com/">Heroku</a> and <a href="https://devcenter.heroku.com/articles/heroku-cli">download</a> the Heroku CLI</p>
+
+        <p>Login to Heroku CLI:</p>
+
+        <p className="code-box">$ heroku login</p>
+
+        <p>If you haven't already created your app in Heroku, do the following:</p>
+        <p className="code-box">
+          $ heroku create Your-App --buildpack https://github.com/mars/create-react-app-buildpack.git <br/>
+          $ git add . <br/>
+          $ git commit -m "Created my React App" <br/>
+          git push heroku master <br/>
+          heroku open <br/>
+        </p>
+
+        <p>For an existing Heroku app:</p>
+        <p className="code-box">
+          $ heroku git:remote --app Your-App><br/>
+          $ heroku buildpacks:set https://github.com/mars/create-react-app-buildpack.git<br/>
+          $ git add . <br/>
+          $ git commit -m "Created my React App" <br/>
+          $ git push heroku master <br/>
+        </p>
+
+        <p className="step">Finished!</p>
+
+        <p>You can now open your deployed app using:</p>
+        <p className="code-box">$ heroku open</p>
+
+        <p className="thanks">Thank you for reading!</p>
 
       </div>
     )
