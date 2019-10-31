@@ -32,7 +32,7 @@ class Blog1 extends Component {
           <br/>
           $ create-react-app YourAppName
           <br/>
-          $ cd MyAwesomeApp
+          $ cd YourAppName
         </p>
 
         <p className="step">Step 2: static.json</p>
