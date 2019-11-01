@@ -21,7 +21,7 @@ class Blog1 extends Component {
 
         <p><a href="https://reactjs.org/docs/getting-started.html">Facebook</a> does a great job in showing you how to get started using <a href="https://reactjs.org/docs/create-a-new-react-app.html#create-react-app">create-react-app</a>, but deploying to production can sometimes get confusing, as there are many steps to take to assure the build works properly with Heroku</p>
 
-        <p>Let's now look at the process of correctly deploying your React app to heroku.</p>
+        <p>Let's now look at the process of correctly deploying your React app to Heroku.</p>
 
         <p className="step">Step 1: Create your React project</p>
 
@@ -59,7 +59,7 @@ class Blog1 extends Component {
 
         <p className="code-box">$ git init</p>
 
-        <p className="step">Step 4: Deploy to heroku</p>
+        <p className="step">Step 4: Deploy to Heroku</p>
 
         <p>If you haven't already, sign up on <a href="https://signup.heroku.com/">Heroku</a> and <a href="https://devcenter.heroku.com/articles/heroku-cli">download</a> the Heroku CLI</p>
 

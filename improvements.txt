@@ -1,6 +1,6 @@
 Improvements: 
   - Dark mode
-  - Comments and likes for blogs
+  - Comments for blogs
   - Make contact form send an email to you
   - On hover for photos, show location
   - Option to click on photos and view it bigger
