@@ -20,6 +20,13 @@ class Blog extends Component {
               <p className="blog-title">How to deploy a React Application to Production using Heroku</p>
             </div>
           </Link>
+
+          <Link className="blog-link not-first" to="/blog2">
+            <div className="blogs">
+              <p className="date">1 November 2019</p>
+              <p className="blog-title">Coding Interview Crash Course: The Must-Know</p>
+            </div>
+          </Link>
         </div>
 
       </div>

@@ -1,23 +1,27 @@
-.blog { text-align: left; }
-
-.content {
-  max-width: 50%;
+.blog2 {
+  max-width: 60%;
   margin: 40px auto;
-  text-align: left;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .blog2 { max-width: 75%; }
+}
+
+.blog2 h1 {
+  font-size: 28px;
 }
 
 .date { font-size: 15px; }
 
-.blog-title { font-size: 28px; }
-
-
-.blogs { opacity: .6; }
-
-.blogs:hover { opacity: 1; }
+.bold {
+  font-weight: bold;
+  font-size: 25px;
+}
 
 .logo {
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -50,16 +54,17 @@
   }
 }
 
-.blog-link { 
-  opacity: .6;
-  color: black; 
+.code-box {
+  background-color: #09192F;
+  color: #65FFDA;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
 }
 
-.blog-link:hover { 
-  opacity: 1;
-  color: black 
-}
-
-.not-first {
-  margin-top: 10px;
+.thanks {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
 }
