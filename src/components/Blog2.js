@@ -17,20 +17,12 @@ class Blog2 extends Component {
 
         <p className="date">1 November 2019</p>
 
-        <p>This article will </p>
-
-        <p>Let's now look at the process of correctly deploying your React app to Heroku.</p>
+        <p>In progress...</p>
 
         <p className="bold">Introduction</p>
 
-        <p>Install create-react-app and create your app, then navigate into the project folder:</p>
-
         <p className="code-box">
-          $ npm install -g create-react-app
-          <br/>
-          $ create-react-app YourAppName
-          <br/>
-          $ cd YourAppName
+          
         </p>
 
       </div>
