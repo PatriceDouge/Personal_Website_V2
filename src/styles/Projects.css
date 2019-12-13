@@ -6,20 +6,28 @@
   transform: translateX(-50%);
 }
 
-.container h1 { 
-  padding: 50px 0 25px 0; 
+.container h1 {
+  padding: 50px 0 25px 0;
   font-weight: bolder;
 }
 
-.container h1, h2 { text-align: center }
+.container h1,
+h2 {
+  text-align: center;
+}
 
 img {
   width: 25px;
   height: 25px;
 }
 
-.projects p { font-size: 14px; }
-.projects-2 p { font-size: 14px; }
+.projects p {
+  font-size: 14px;
+}
+
+.projects-2 p {
+  font-size: 14px;
+}
 
 .project-box {
   border: 1px solid #e1e4e8;
@@ -27,8 +35,15 @@ img {
   padding: 18px;
 }
 
-.padding { margin: 0 20px 0 20px;} 
-@media all and (max-width: 575px) { .padding { margin: 20px 0 20px 0; }}
+.padding {
+  margin: 0 20px 0 20px;
+}
+
+@media all and (max-width: 575px) {
+  .padding {
+    margin: 20px 0 20px 0;
+  }
+}
 
 .dot-yellow {
   height: 15px;

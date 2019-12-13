@@ -1,67 +1,256 @@
 /* font */
-@font-face { font-family: dense-regular;
-  src: url('../assets/fonts/Dense-Regular.otf')}
+@font-face {
+  font-family: dense-regular;
+  src: url('../assets/fonts/Dense-Regular.otf')
+}
 
 /*** Default Font styles ***/
-h1 {font-family: 'Montserrat', sans-serif;line-height: 1.2em;font-weight: 700;font-size: 50px;font-style: normal;margin-bottom: 0;text-transform: uppercase;}
-h2 {font-family: 'Montserrat', sans-serif;line-height: 1.3em;font-weight: 700;font-size: 35px;font-style: normal;margin-bottom: 0;text-transform: uppercase;}
-h3 {font-family: 'Montserrat', sans-serif;line-height: 1.2em;font-weight: 500;font-size: 28px;font-style: normal;margin-bottom: 0;text-transform: uppercase;}
-h4 {font-family: 'Montserrat', sans-serif;line-height: 1.2em;font-weight: 500;font-size: 25px;font-style: normal;margin-bottom: 0;}
-p  {font-family: 'Montserrat', sans-serif;line-height: 1.3em;font-weight: 400;font-size: 20px;font-style: normal;margin-top: 10px;}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2em;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2em;
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2em;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3em;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10px;
+}
+
 /* h1, h2, h3, h4, p {-webkit-transition: font-size .5s ease-in-out;-moz-transition: font-size .5s ease-in-out;-o-transition: font-size .5s ease-in-out;transition: font-size .5s ease-in-out;} */
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-h1 {line-height: 1.2em;font-size: 50px;margin-bottom: 0;}
-h2 {line-height: 1.3em;font-size: 35px;margin-bottom: 0;}
-h3 {line-height: 1.2em;font-size: 28px;margin-bottom: 0;}
-h4 {line-height: 1.2em;font-size: 25px;margin-bottom: 0;}
-p  {line-height: 1.4em;font-size: 20px;margin-top: 10px;}
+  h1 {
+    line-height: 1.2em;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    line-height: 1.3em;
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    line-height: 1.2em;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    line-height: 1.2em;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  p {
+    line-height: 1.4em;
+    font-size: 20px;
+    margin-top: 10px;
+  }
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
-h1 {line-height: 1.2em;font-size: 45px;margin-bottom: 0;}
-h2 {line-height: 1.3em;font-size: 3px;margin-bottom: 0;}
-h3 {line-height: 1.2em;font-size: 28px;margin-bottom: 0;}
-h4 {line-height: 1.2em;font-size: 23px;margin-bottom: 0;}
-p {line-height: 1.3em;font-size: 20px;margin-top: 10px;}
+  h1 {
+    line-height: 1.2em;
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    line-height: 1.3em;
+    font-size: 3px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    line-height: 1.2em;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    line-height: 1.2em;
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+
+  p {
+    line-height: 1.3em;
+    font-size: 20px;
+    margin-top: 10px;
+  }
 }
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-h1 {line-height: 1.2em;font-size: 38px;margin-bottom: 0;}
-h2 {line-height: 1.3em;font-size: 28px;margin-bottom: 0;}
-h3 {line-height: 1.2em;font-size: 24px;margin-bottom: 0;}
-h4 {line-height: 1.2em;font-size: 22px;margin-bottom: 0;}
-p {line-height: 1.2em;font-size: 16px;margin-top: 10px;}
+  h1 {
+    line-height: 1.2em;
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    line-height: 1.3em;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    line-height: 1.2em;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    line-height: 1.2em;
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  p {
+    line-height: 1.2em;
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
 
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-h1 {line-height: 1.2em;font-size: 36px;margin-bottom: 0;}
-h2 {line-height: 1.3em;font-size: 26px;margin-bottom: 0;}
-h3 {line-height: 1.2em;font-size: 22px;margin-bottom: 0;}
-h4 {line-height: 1.2em;font-size: 20px;margin-bottom: 0;}
-p {line-height: 1.4em;font-size: 16px;margin-top: 10px;}
+  h1 {
+    line-height: 1.2em;
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    line-height: 1.3em;
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    line-height: 1.2em;
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  p {
+    line-height: 1.4em;
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
 
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-h1 {line-height: 1.2em;font-size: 30px;margin-bottom: 0;}
-h2 {line-height: 1.3em;font-size: 24px;margin-bottom: 0;}
-h3 {line-height: 1.2em;font-size: 20px;margin-bottom: 0;}
-h4 {line-height: 1.2em;font-size: 18px;margin-bottom: 0;}
-p {line-height: 1.4em;font-size: 14px;margin-top: 10px;}
+  h1 {
+    line-height: 1.2em;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    line-height: 1.3em;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    line-height: 1.2em;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  p {
+    line-height: 1.4em;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-h1 {line-height: 1.2em;font-size: 8px;margin-bottom: 0;}
-h2 {line-height: 1.3em;font-size: 23px;margin-bottom: 0;}
-h3 {line-height: 1.2em;font-size: 19px;margin-bottom: 0;}
-h4 {line-height: 1.2em;font-size: 17px;margin-bottom: 0;}
-p {line-height: 1.4em;font-size: 14px;margin-top: 10px;}
+  h1 {
+    line-height: 1.2em;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    line-height: 1.3em;
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    line-height: 1.2em;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    line-height: 1.2em;
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+
+  p {
+    line-height: 1.4em;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
 
 body {
@@ -74,6 +263,3 @@ a {
   text-decoration: none;
   /* transition: all 500ms ease-in-out; */
 }
-
-
-

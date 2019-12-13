@@ -8,7 +8,7 @@ class Projects extends Component {
       <div className="container">
         <h1>Projects</h1>
         <h2>
-          Want to see more? Visit my{" "}
+          Want to see more? Visit my
           <a href="https://github.com/PatriceDouge">github.</a>
         </h2>
         <div className="row projects">
@@ -76,7 +76,7 @@ class Projects extends Component {
             </p>
 
             <div className="lang">
-              <span class="dot-orange"></span>
+              <span className="dot-orange"></span>
               <p className="language">Swift</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ class Projects extends Component {
             </p>
 
             <div className="lang">
-              <span class="dot-brown"></span>
+              <span className="dot-brown"></span>
               <p className="language">Java</p>
             </div>
           </div>
