@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 import "../styles/App.css";
 import "../styles/Blog2.css";
@@ -14,177 +13,52 @@ class Blog2 extends Component {
             <img src={require("../assets/images/logo.jpg")} alt="logo" />
           </Link>
         </div>
+        <h1 className="bold">
+          How to configure your React app to serve the production build to
+          Heroku
+        </h1>
+        <p className="date"> 12 December 2019 </p>
 
-        <h1 className="bold">Coding Interview Crash Course: The Must-Know</h1>
-
-        <p className="date">1 November 2019</p>
-
-        <p className="bold">Table of Contents:</p>
-
-        <ol>
-          <li>
-            <HashLink smooth to="#intro">
-              Intro
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#bigo">
-              Big O
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#array_strings">
-              Arrays & Strings
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#linkedlists">
-              Linked Lists
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Stacks & Queues
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Trees and Graphs
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Binary(Bit Manipulation)
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Math & Logic
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Recursion
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Dynamic Programming
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Sorting & Searching
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              System Design
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Testing
-            </HashLink>
-          </li>
-          <li>
-            <HashLink smooth to="#intro">
-              Useful Resources
-            </HashLink>
-          </li>
-        </ol>
-
-        <p className="bold" id="intro">
-          Introduction
+        <p>
+          If you use create-react-app to
+          <Link to="/blog1">&nbsp;deploy&nbsp;</Link>
+          to Heroku, you might run into the problem of Heroku serving your
+          development files instead of the minified production files. <br />
+          Not configuring your React App to do so will cause problems with your
+          site taking a while to load or not loading at all. <br />
+          This article will help you configure you app to do so.
         </p>
 
-        <p></p>
+        <p className="bold">Configure you React App:</p>
 
-        <p className="bold" id="intro">
-          Big O
+        <p>
+          First, we need to install{" "}
+          <a href="https://www.npmjs.com/package/serve">this package</a> to
+          serve our production build as a static resource. <br />
+          Run the following in your project root(where your package.json is):
+        </p>
+        <p className="code-box">npm install --save serve</p>
+
+        <p>Next, we need to change the scripts in package.josn:</p>
+        <p className="code-box">
+          "scripts": &#123; <br />
+          &nbsp;"dev": "react-scripts start", <br />
+          &nbsp;"start": "serve -s build", <br />
+          &nbsp;"build": "react-scripts build", <br />
+          &nbsp;"test": "react-scripts test --env=jsdom", <br />
+          &nbsp;"eject": "react-scripts eject", <br />
+          &nbsp;"heroku-postbuild": "npm run build" <br />
+          &#125;
         </p>
 
-        <p></p>
-
-        <p className="bold" id="intro">
-          Arrays & Strings
+        <p className="bold">Finished!</p>
+        <p>
+          Now follow the
+          <Link to="/blog1">&nbsp;steps&nbsp;</Link>
+          to deploy to heroku and your app will be running in production mode!
         </p>
 
-        <p></p>
-
-        <p className="bold" id="intro">
-          Linked Lists
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Stacks & Queues
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Trees and Graphs
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Binary Bit(Bit Manipulation)
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Math & Logic
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Recursion
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Dynamic Programming
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Sorting & Searching
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          System Design
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          System Design
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Testing
-        </p>
-
-        <p></p>
-
-        <p className="bold" id="intro">
-          Useful Resources
-        </p>
-
-        <p></p>
-
-        <p className="code-box"></p>
+        <p className="thanks">Thank you for reading!</p>
       </div>
     );
   }
