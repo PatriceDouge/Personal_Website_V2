@@ -5,6 +5,12 @@
   transform: translateX(-50%);
 }
 
+@media all and (max-width: 479px) {
+  .work {
+    width: 100vw;
+  }
+}
+
 .work h1,
 h2 {
   text-align: center;
@@ -28,7 +34,7 @@ h2 {
 
 @media all and (max-width: 479px) {
   .work .text {
-    padding: 30px 0 0 10px;
+    padding: 0px 0px 0 40px;
   }
 }
 

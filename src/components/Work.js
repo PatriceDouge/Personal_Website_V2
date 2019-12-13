@@ -57,8 +57,8 @@ class Work extends Component {
               <h3> Amexsa Corp </h3>
               <p>
                 Amexsa is an international trading company which specializes in
-                the marketing and distribution of food and beverages worldwide.I
-                helped with the design and development of their website, using
+                the marketing and distribution of food and beverages worldwide.
+                I helped with the design and development of their website, using
                 HTML, CSS and JavaScript
               </p>
             </div>

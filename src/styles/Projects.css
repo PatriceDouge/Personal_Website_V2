@@ -1,9 +1,15 @@
 .projects {
   width: 85%;
-  padding-top: 50px;
+  margin-top: 20px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media all and (max-width: 575px) {
+  .projects {
+    left: 54%;
+  }
 }
 
 .container h1 {
