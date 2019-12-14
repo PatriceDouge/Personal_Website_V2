@@ -32,6 +32,14 @@ class Blog extends Component {
               </p>
             </div>
           </Link>
+          {/* <Link className="blog-link not-first" to="/blog3">
+            <div className="blogs">
+              <p className="date"> 14 December 2019 </p>
+              <p className="blog-title">
+                Coding Interview Crash Course: The Must - Know
+              </p>
+            </div>
+          </Link> */}
         </div>
       </div>
     );
