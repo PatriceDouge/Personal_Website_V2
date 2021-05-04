@@ -9,7 +9,7 @@ class Projects extends Component {
         <h1>Projects</h1>
         <h2>
           Want to see more? Visit my
-          <a href="https://github.com/PatriceDouge">github.</a>
+          <a href="https://github.com/PatriceDouge"> github.</a>
         </h2>
         <div className="row projects">
           <div className="col-sm project-box">

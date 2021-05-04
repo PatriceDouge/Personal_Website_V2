@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import '../styles/Footer.css';
-import '../styles/App.css';
+import React, { Component } from "react";
+import "../styles/Footer.css";
+import "../styles/App.css";
 
 class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <p>Patrice Douge © 2019.</p>
+        <p>Patrice Douge © 2021.</p>
       </div>
-    )
+    );
   }
 }
 
