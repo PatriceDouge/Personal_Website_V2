@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "engines": {
-    "node": "18.8.0",
+    "node": "18.0",
     "npm": "6.4.1"
   },
   "private": true,
