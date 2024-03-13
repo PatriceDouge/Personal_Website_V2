@@ -23,7 +23,7 @@ class Home extends Component {
           <p className="about">
           I design and develop <Link to="/work">websites</Link>, love taking <Link to="/photography">pictures</Link><a href=""></a>,
             <br />
-          and enjoy <Link to="/blog">writting</Link> about a variety of subjects.
+          and enjoy <Link to="/blog">writing</Link> about a variety of subjects.
             <br />
           Scroll down to learn more about what I do.
           </p>
